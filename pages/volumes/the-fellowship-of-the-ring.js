@@ -3,6 +3,7 @@ import Link from "next/link";
 import { volumes } from "../../lib/data.js";
 
 export default function VolumeDetail() {
+
   const volumeIndex = volumes.findIndex(
     ({ slug }) => slug === "the-fellowship-of-the-ring"
   );
